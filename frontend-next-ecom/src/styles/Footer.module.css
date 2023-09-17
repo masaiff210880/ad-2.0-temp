@@ -1,0 +1,45 @@
+.location{
+    display: flex;
+    border: 1px solid grey;
+ 
+  align-items: center;
+   padding: 5px;
+    justify-content: center;
+    column-gap: 20px;
+}
+.email{
+    display: flex;  
+}
+.emailimg{
+
+ 
+    position: relative;
+    right: 2px;
+   
+}
+
+
+.phoneimg{
+
+    position: relative;
+    right: 2px;
+
+}
+.phone{
+    display: flex;
+}
+/* .location>P{
+    left: 10px;
+    position: relative;
+} */
+.paragraph>p{
+    text-align: left;
+    line-height: 10px;
+    position: relative;
+    top: 5px;
+
+}
+.footerimg{
+    background-image: url('../../public/assets/img/footer/FooterImg.svg');
+    background-size: cover;
+}

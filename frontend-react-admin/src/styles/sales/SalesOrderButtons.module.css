@@ -1,0 +1,123 @@
+.salesbutton1{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #F68B20;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.salesbutton2{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #F68B20;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.salesbutton3{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #0AA06E;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.salesbutton4{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #299CDB;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.salesbutton5{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #36A2DD;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.salesbutton6{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #36A2DD;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.salesbutton7{
+    width: 100px;
+height: 45.156px;
+flex-shrink: 0;
+border-radius: 5.012px;
+background: var(--dark-theme-white, #FFF);
+
+/* drop */
+box-shadow: 0px 1.30085px 2.60171px 0px rgba(56, 65, 74, 0.15);
+border: none;
+color: #000DA2;
+font-family: Poppins;
+font-size: 13.714px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.icontextgap {
+    margin-right: 5px; 
+  }

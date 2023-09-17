@@ -1,0 +1,155 @@
+.trackOrder {
+  position: relative;
+  top: -2px;
+  margin-right: 10px;
+}
+.searchIcon {
+  position: relative;
+  top: -5px;
+}
+/* .banner {
+  position: relative;
+  top: 15px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  margin-bottom: 40px;
+
+} */
+/* .banner1 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  gap: 15px;
+
+  flex-direction: row;
+  margin-bottom: 76.5px;
+} */
+
+/* .category_card>div{
+    width: 200px;
+} */
+.FlagLogo {
+  position: absolute;
+  z-index: 1;
+  top: 47px;
+  left: -4px;
+}
+
+/* Media query for mobile screens */
+
+.searchIcon1 {
+  position: relative;
+  top: 2px;
+  color: black;
+}
+.searchIcon1 {
+  position: relative;
+  top: 2px;
+  color: black;
+}
+.ImgStyleBan {
+  border-radius: 3vh;
+  width: 30vh;
+  height: 46vh;
+  margin-top: -1vh;
+  margin-left: 40px;
+}
+.ImgStyleBan1 {
+  width: 125vh;
+  height: 70vh;
+  margin-top: -12.5vh;
+  margin-left: 35px;
+}
+.cateImg {
+  width: 49.3vh;
+  height: 49.3vh;
+}
+.bgTendingPage {
+  background-color: red;
+}
+.tendingDivStyle {
+}
+
+.container {
+  position: relative;
+  right: 225px;
+}
+
+.adlogo {
+  position: relative;
+  left: -150px;
+}
+
+/* image2style */
+.banner {
+  position: relative;
+  top: 15px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.banner1 {
+  position: relative;
+  top: 15px;
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  margin-bottom: 76.5px;
+}
+
+.image2Style {
+  width: 100%;
+  height: 520px;
+}
+
+.image1Style {
+  width: 100%;
+  height: 520px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Media query for screens smaller than 768px */
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Put the middle image on top */
+  .image2Style {
+    order: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Keep the left and right images below */
+  .image1Style {
+    order: 2;
+  }
+  .banner1 {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .FlagLogo {
+    top: 0px; /* adjust as needed for mobile screens */
+    left: 0px;
+    width: 40%; /* adjust as needed for mobile screens */
+  }
+  .adlogo {
+    top: 12px;
+    left: 20px;
+    bottom: 5px;
+    width: 5%; /* Reset the left position for mobile screens */
+  }
+}

@@ -1,0 +1,368 @@
+.printImgStyle {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .commonImgStyle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #2f4c8f;
+    border: 1px solid #00cefb;
+    border-radius: 5px;
+    margin-right: 7px;
+    background: var(--dark-theme-white, #fff);
+  
+    /* Shadow */
+    box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px
+      rgba(0, 0, 0, 0.25);
+  }
+  
+  .commonImgStyle:hover {
+    background: var(
+      --theme-color-blue-gradient,
+      linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+    );
+    color: white;
+  }
+  
+  .commonImgStyle1:hover {
+    background: var(
+      --theme-color-blue-gradient,
+      linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+    );
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .btnSaveStyle {
+    width: 135px;
+    /* height: 28px; */
+    flex-shrink: 0;
+    height: 45px;
+    flex-shrink: 0;
+    padding: 5.5px 9px 5.5px 9px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    margin-right: 10px;
+    /* margin-left: 7.5px; */
+    margin-top: 7.5px;
+    background: #00a538;
+    color: white;
+    border: none;
+  }
+  
+  .row1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 2.834px;
+    background: var(--purple-10, rgba(77, 175, 230, 0.1)) !important;
+  
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* color:  var(--dark-theme-blue-gradient, linear-gradient(180deg, #0A3E89 0%, #1D73AC 100%)); */
+    color: #0a3e89;
+  }
+  
+  /* .ordertext{
+    color: #212529;
+  font-family: Poppins;
+  font-size: 21.784px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  } */
+  
+  .customer > h1 {
+    color: #119ad5 !important;
+    font-family: Poppins;
+    font-size: 15.784px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .cal_div {
+    display: flex;
+  }
+  .cal {
+    display: flex;
+    margin-right: 10px;
+  }
+  .cal > img {
+    width: 14.339px;
+    height: 14.339px;
+    flex-shrink: 0;
+    margin-right: 5px;
+  }
+  
+  .cal > h1 {
+    color: #212529;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    bottom: 4px;
+  }
+  
+  .money > h1 {
+    color: #212529;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  /* .ref{
+    color: #212529;
+  font-family: Poppins;
+  font-size: 21.784px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  } */
+  
+  /* .time{
+    color: #9599AD;
+  font-family: Poppins;
+  font-size: 18.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  } */
+  
+  /* .sort{
+    font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background: var(--dark-theme-blue-gradient, linear-gradient(180deg, #0A3E89 0%, #1D73AC 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  } */
+  
+  .checkbox {
+    /* width: 24.222px;
+  height: 23.213px;
+  position: relative; */
+    /* background: var(--dark-theme-blue-gradient, linear-gradient(180deg, #0A3E89 0%, #1D73AC 100%)); */
+    /* background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    /* left: 40px; */
+    /* border-radius: 5.2px; */
+    /* border: 1.04px solid var(--sky-blue, #5CCFFE); */
+    /* background: var(--theme-color-white, #FCFCFC); */
+    /* flex-shrink: 0;
+  border-radius: 4.99px; */
+    /* border: 0.998px solid var(--sky-blue, #5CCFFE);
+  background: var(--theme-color-white, #FCFCFC); */
+  }
+  .topHeader {
+    background-color: white;
+  }
+  
+  /* salesplitScreen css  */
+  
+  .saleHeadingfirst {
+    color: #299cdb;
+  
+    /* Heading/Heading 2 */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+
+
+
+/* .commonIconStyle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: #2f4c8f;
+  border: 1px solid #00cefb;
+  border-radius: 5px;
+  background: var(--dark-theme-white, #fff);
+  padding: 2px 7px;
+  box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 21px;
+}
+
+.commonIconStyle:hover {
+  background: var(
+    --theme-color-blue-gradient,
+    linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+  );
+  color: white;
+} */
+
+.commonIconStyle {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #2f4c8f;
+    border: 1px solid #00cefb;
+    border-radius: 5px;
+    background: var(--dark-theme-white, #fff);
+    padding: 2px 7px;
+    box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px
+      rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+  }
+  
+  .commonIconStyle:hover {
+    background: var(
+      --theme-color-blue-gradient,
+      linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+    );
+    color: white;
+  }
+  .subPurchaseRepts {
+    width: 193px;
+    height: 37px;
+    flex-shrink: 0;
+    margin-left: 11.2px;
+    border-radius: 3px;
+    background-color: #e7f7f5;
+    font-family: Inter;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #2581bf;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+  }
+  
+  .purchaseResptsPara {
+    color: #212529;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 28px;
+    padding-top: 23px;
+  }
+  .sPRfirstDiv {
+    width: 100%;
+    height: 139px;
+    flex-shrink: 0;
+    margin-left: 28px;
+    background: var(--White-Shadow_, #fff);
+  
+    /* Shadow */
+    box-shadow: 0px 3.5396px 8.84901px 0px rgba(0, 0, 0, 0.25);
+  }
+  .sRPSubFirtDiv {
+    width: 100%;
+    height: 42px;
+    flex-shrink: 0;
+    background: var(--dark-theme-light-purple, rgba(77, 175, 230, 0.2));
+    color: var(--dark-theme-text-blue, #119ad5);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 12px;
+  }
+  .sRPSubFirtDiv > span {
+    font-size: 16.5px;
+    padding-top: 12px;
+  }
+  .sRPSubFirtDiv > i {
+    padding-left: 10px;
+    padding-top: 8px;
+    font-size: 29px;
+    background: var(
+      --dark-theme-theme-color-blue-gradient,
+      linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .sPRSubSecDiv {
+    margin-top: 33px;
+    margin-left: 28px;
+    color: var(--Gray-Blue, #888998);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .sPRBoxSecDiv {
+    width: 268px;
+    height: 45px;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 11px;
+    color: var(--Gray-Blue, #888998);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    justify-content: space-around;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(136, 137, 152, 0.5);
+    background: var(--White-Shadow_, #fff);
+    margin-left: 28px;
+    /* Blue Shadow */
+    box-shadow: 0px 0.70792px 1.7698px 0px rgba(0, 129, 249, 0.15);
+  }
+  .tableHeading {
+    background: var(--purple-10, rgba(77, 175, 230, 0.1));
+    color: #0a3e89;
+    padding-bottom: 15px;
+  }
+  .pieceCountDiv {
+    width: 102.601px;
+    padding: 2.832px 86.601px 2.811px 8px;
+    align-items: center;
+    border-radius: 3.538px;
+    border: 0.354px solid rgba(77, 175, 230, 0.5);
+    background: #fff;
+    box-shadow: 0px 2.83036px 12.73663px 0px rgba(0, 129, 249, 0.15);
+  }
+  .pCostDiv {
+    width: 20%;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .pieceL2CountDiv {
+    width: 170px;
+    
+    padding: 2.832px 86.601px 2.811px 8px;
+    align-items: center;
+    border-radius: 3.538px;
+    border: 0.354px solid rgba(77, 175, 230, 0.5);
+    background: #fff;
+    box-shadow: 0px 2.83036px 12.73663px 0px rgba(0, 129, 249, 0.15);
+  }
+  .tableBodyHover :hover{
+    background-color: #D8FDFF;
+  }

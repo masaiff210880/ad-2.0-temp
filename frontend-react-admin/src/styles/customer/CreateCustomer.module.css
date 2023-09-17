@@ -1,0 +1,21 @@
+/* Upload */
+.uploadPicturesWrapper div {
+    justify-content: flex-start !important;
+     /* background: #F3F6F9; */
+  
+  }
+  
+  .uploadPictureContainer {
+    width: 130px !important;
+    height: 130px !important;
+    margin: 2% 2% !important;
+    padding: 10px !important;
+    background: #F3F6F9;
+  }
+  
+  .uploadPictureContainer img {
+    height: 210px !important;
+    width: 110px !important;
+  }
+  
+ 

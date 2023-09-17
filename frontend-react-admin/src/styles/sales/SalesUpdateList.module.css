@@ -1,0 +1,104 @@
+.topHeader {
+  background-color: white;
+  width: 100%;
+}
+
+.commonImgStyle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: #2f4c8f;
+  border: 1px solid #00cefb;
+  border-radius: 5px;
+  margin-right: 7px;
+  background: var(--dark-theme-white, #fff);
+
+  /* Shadow */
+  box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px rgba(0, 0, 0, 0.25);
+}
+
+.commonImgStyle:hover {
+  background: var(--theme-color-blue-gradient,
+      linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%));
+  color: white;
+}
+
+.assigntext {
+  color: #212529;
+
+  /* Text/Text Medium 2 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.greencard {
+  width: 498px;
+  height: 48px;
+  left: -20px;
+  position: relative;
+  top: -20px;
+}
+
+.popuptext {
+  width: 730px;
+  margin-top: 15px;
+  height: 58px;
+  margin-left: 14.5px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(240, 90, 100, 0.30);
+  position: relative;
+
+  top: 10px;
+
+}
+
+.popuptext>p {
+
+  color: #EE4652;
+  position: absolute;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  /* 158.333% */
+  text-align: center;
+  top: 4px;
+  position: relative;
+}
+
+.serialtext {
+  color: var(--dark-theme-dark-background, #17142A);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  /* 105.556% */
+  left: 120px;
+  position: relative;
+}
+
+.serialtext>p>span {
+  color: #878A99;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  /* 105.556% */
+}
+
+.remotetext {
+  color: var(--dark-theme-text-blue, #119AD5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}

@@ -1,0 +1,336 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Custom Css File
+*/
+.auth-page-content {
+  margin-top: 12vh;
+}
+.search_box{
+  width: 50%important;
+}
+.auth-page-wrapper {
+  margin-top: -5vh;
+}
+
+.form-card-div {
+  height: 491px;
+  background: transparent;
+  margin-top: 50px;
+  position: relative;
+  top: 149px;
+  left: 29px;
+  box-shadow: none; /* Optional, remove box shadow */
+  border: none;
+}
+.form-card-div-2 {
+  height: 491px;
+  background: transparent;
+  margin-top: 50px;
+  position: relative;
+  top: 149px;
+  left: 29px;
+  box-shadow: none; /* Optional, remove box shadow */
+  border: none;
+}
+.ad-logo-img {
+  height: 17vh;
+  margin-top: 5px;
+}
+.card-login-div {
+  margin-top: 173px;
+}
+.card-Text {
+  margin-left: 39px;
+  margin-bottom: 12px;
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 3.4375rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card-Text-2 {
+  margin-left: 39px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 25.124px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.signup-div-style {
+  position: relative;
+  top: 0.2rem;
+  color: var(--theme-color-dark-blue, #2d3845);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bg_light {
+  background-color: #4dafe61a !important;
+}
+.card-signup-div {
+  margin-top: 173px;
+}
+
+// ram css
+.tooltip_custome {
+  background-color: red !important;
+  color: white !important;
+}
+.text-gray {
+  color: var(--theme-color-gray-3, #979797);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bg_add_product {
+  background-color: red !important;
+  border: none !important;
+}
+.bg_gray {
+  border-radius: 3px !important;
+  background: #f3f6f9 !important;
+}
+.bg_yellow {
+  border-radius: 3px !important;
+  background: rgba(250, 215, 94, 0.2) !important;
+}
+.bg_primary {
+  border-radius: 3px !important;
+  background: #d6ecff !important;
+}
+.gray_icon {
+  color: gray !important;
+}
+.primary_icon {
+  color: #094c89 !important;
+}
+.box_shadow {
+  box-shadow: none !important;
+  background-color: none !important;
+  background: none !important;
+}
+.stock_value {
+  position: relative;
+  top: 0.2rem;
+  color: var(--theme-color-dark-blue, #2d3845);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.plus_btn{
+  width: 111.361px;
+height: 111.361px;
+flex-shrink: 0;
+border-radius: 3.807px;
+border: 0.952px solid #E9EBEC;
+background: #F3F6F9;
+position: relative;
+bottom: 12px;
+// top: 7px;
+// bottom: 40px;
+left: 10px;
+// left: 180px;
+}
+
+.plus_btn>img{
+  width: 70px;
+height: 70px;
+flex-shrink: 0;
+position: relative;
+top: 20px;
+left: 15px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Upload */
+.uploadPicturesWrapper div {
+  justify-content: flex-start !important;
+  
+  // background: #F3F6F9;
+
+}
+
+.uploadPictureContainer {
+  width: 130px !important;
+  height: 130px !important;
+  margin: 2% 2% !important;
+  padding: 10px !important;
+  background: #F3F6F9;
+}
+
+.uploadPictureContainer img {
+  height: 110px !important;
+  width: 110px !important;
+ 
+}
+
+
+.fileContainer .deleteImage {
+  position: absolute;
+  top: -9px;
+  right: -9px;
+  color: #1f1919 !important;
+  background: #F3F6F9 !important;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px !important;
+  font-weight: bold;
+  line-height: 30px;
+  width: 25px !important;
+  height: 25px !important;
+}
+
+
+.dz-message>img{
+  position: relative;
+  left: 80px;
+}
+
+.product-img>img{
+  width: 105.43px;
+height: 137.459px;
+flex-shrink: 0;
+background: lightgray 50% / cover no-repeat;
+position: relative;
+left: 200px;
+}
+
+.dummy_img{
+  width: 304.971px;
+height: 318px;
+flex-shrink: 0;
+border-radius: 21.348px;
+background: var(--theme-color-white, #FCFCFC);
+box-shadow: 0px 30.497129440307617px 76.2428207397461px 0px rgba(0, 0, 0, 0.10);
+position: relative;
+left: 85px;
+
+}
+
+.dummy_img>img{
+  width: 116.53px;
+height: 160.654px;
+flex-shrink: 0;
+// background: lightgray 50% / cover no-repeat;
+position: relative;
+left: 95px;
+top: 15px;
+}
+
+.dummy_img>h1{
+  color: var(--theme-color-dark-blue, #2D3845);
+text-align: center;
+font-family: Poppins;
+font-size: 18.298px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 259.446px;
+position: relative;
+top: 20px;
+left: 18px;
+}
+
+.dummy_img>h2{
+  width: 219.669px;
+  text-align: center;
+font-family: Inter;
+font-size: 18.298px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--navy-gradient, linear-gradient(96deg, #094C89 1.02%, #019EF7 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+top: 25px;
+left: 40px;
+}
+// Product List
+.avtiveRow{
+  background-color: rgba(114, 205, 255, 0.05)!important;
+  text-align: center!important;
+}
+.deActiveRow{
+  background-color: #fff!important;
+  text-align: right!important;
+}
+.table_td{
+  text-align: left!important;
+}
+.table_td:nth-child(8){
+  text-align: center!important;
+}
+.table_header{
+  background: rgba(77, 175, 230, 0.10)!important;
+  color: #094C89!important;
+}
+.table_header:nth-child(7){
+  text-align: center!important; 
+}
+.table_header:nth-child(8){
+  text-align: center!important; 
+}
+.title_multiline{
+  overflow: hidden!important;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 3!important; /* Number of lines to show */
+  -webkit-box-orient: vertical!important;
+  width: 15vw!important;
+}
+//Product List
+@media (max-width: 576px) {
+  .responsiveShow {
+    margin-right: 0.5rem !important;
+  }
+
+  .responsiveGoto {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .responsiveRows {
+    /* Adjust styles for small screens */
+    width: 50px; /* Adjust as needed */
+  }
+
+  .responsiveGotoBox {
+    /* Adjust styles for small screens */
+    width: 40px; /* Adjust as needed */
+  }
+
+  .responsiveCustomToggle {
+    /* Adjust styles for small screens */
+    padding: 4px 8px; /* Adjust as needed */
+  }
+
+  .responsiveContainer {
+    /* Adjust styles for small screens */
+    gap: 1rem; /* Adjust as needed */
+  }
+}
+.clickMouseHover{
+  cursor: pointer;
+}
+.clickMouseHover:hover{
+  color: #119AD5!important;
+}

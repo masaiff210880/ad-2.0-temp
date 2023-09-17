@@ -1,0 +1,67 @@
+
+
+.firstDiv {
+  border-radius: 4px;
+  background: rgba(41, 156, 219, 0.1);
+  width: 30%;
+  height: 50px;
+  flex-shrink: 0;
+  margin-left: 31px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-top: 13px;
+  color: #495057;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+.SecDiv {
+  border-radius: 4px;
+  background: rgba(41, 156, 219, 0.1);
+  width: 30%;
+  height: 50px;
+  flex-shrink: 0;
+  margin-left: 31px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-top: 13px;
+  color: #495057;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+.thirdDiv {
+  border-radius: 4px;
+  background: rgba(41, 156, 219, 0.1);
+  width: 20%;
+  height: 50px;
+  flex-shrink: 0;
+  margin-left: 31px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-top: 13px;
+  color: #495057;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+.innerDiv {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+}

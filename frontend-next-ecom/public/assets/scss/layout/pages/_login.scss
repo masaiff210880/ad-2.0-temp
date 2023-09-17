@@ -1,0 +1,433 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  7.9 Login CSS
+/*----------------------------------------*/
+
+.#{$theme-prifix}-login {
+    &-wrapper {
+        box-shadow: 0px 30px 70px rgba(1, 15, 28, 0.1);
+        padding: 50px 60px 70px;
+        background-color: var(--tp-common-white);
+        height: 624.035px;
+        width: 465.203px;
+        fill: var(--red-light-gradient, linear-gradient(167deg, #FCFCFC 1.99%, #FCFBFB 4.17%, #FFEAEA 100%));
+        stroke-width: 0.346px;
+        stroke: var(--blue-50, rgba(77, 175, 230, 0.50));
+        box-shadow: 0px 13.824740409851074px 34.56185531616211px rgba(0, 0, 0, 0.10);
+        border-radius: 15px;
+
+        @media #{$xs} {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    &-title {
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 4px;
+    }
+
+    &-top {
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            color: #49535B;
+
+            & a {
+                color: var(--tp-theme-primary);
+                position: relative;
+                display: inline-block;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: auto;
+                    right: 0;
+                    bottom: 4px;
+                    width: 0%;
+                    height: 1px;
+                    background-color: var(--tp-theme-primary);
+                    @extend %tp-transition;
+                }
+
+                &:hover {
+                    &::after {
+                        left: 0;
+                        right: auto;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &-option {
+        &-item {
+            margin-bottom: 10px;
+
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+
+            &.has-google {
+                & a {
+                    // width: 252px;
+
+                    & img {
+                        // margin-right: 7px;
+                        // position: relative;
+                        // left: -50px;
+                    }
+                }
+            }
+
+            & a {
+                display: inline-block;
+                width: 98px;
+                height: 56px;
+                line-height: 54px;
+                text-align: center;
+                border: 1px solid #E0E2E3;
+                font-size: 16px;
+                color: #041226;
+
+                & img {
+                    @include transform(translateY(-2px));
+
+                    &.apple {
+                        @include transform(translateY(-3px));
+                    }
+                }
+
+                &:hover {
+                    border-color: var(--tp-common-black);
+                }
+            }
+        }
+    }
+
+    &-mail {
+        position: relative;
+        z-index: 1;
+
+        & p {
+            font-size: 15px;
+            color: #55585B;
+            margin-bottom: 0;
+            padding: 0 20px;
+            position: relative;
+            display: inline-block;
+            background-color: var(--tp-common-white);
+
+            & a {
+                &:hover {
+                    color: var(--tp-theme-primary);
+                }
+            }
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            left: 0;
+            right: 0;
+            bottom: 12px;
+            width: 100%;
+            height: 1px;
+            background-color: #E0E2E3;
+            @extend %tp-transition;
+            z-index: -1;
+        }
+    }
+
+    &-input {
+        &-wrapper {
+            margin-bottom: 14px;
+        }
+
+        &-box {
+            position: relative;
+
+            &:not(:last-child) {
+                margin-bottom: 34px;
+            }
+        }
+
+        & input {
+
+            background: #FFFFFF;
+            border: 1px solid #E0E2E3;
+            font-size: 14px;
+            color: var(--tp-common-black);
+            width: 368.429px;
+            height: 55.889px;
+            flex-shrink: 0;
+            border-radius: 8.295px;
+            border: 0.691px solid var(--blue-50, rgba(77, 175, 230, 0.50));
+            background: var(--theme-color-white, #FCFCFC);
+            box-shadow: 0px 13.824740409851074px 34.56185531616211px 0px rgba(25, 121, 128, 0.10);
+
+            @include tp-placeholder {
+                color: #95999D;
+            }
+            
+      
+          
+        }
+
+        
+
+        // &::after {
+        //     background: var(--theme-color-white, #FCFCFC);
+
+        // }
+
+        &-title {
+            & label {
+                font-size: 14px;
+                color: var(--tp-common-black);
+                position: absolute;
+                top: -7px;
+                left: 20px;
+                padding: 0 5px;
+                background-color: var(--tp-common-white);
+                line-height: 1;
+            }
+        }
+
+        &-eye {
+            position: absolute;
+            right: 26px;
+            top: 50%;
+            @include transform(translateY(-50%));
+
+            & .open-eye{
+                display: none;
+            }
+
+            & span {
+                @extend %tp-transition;
+            }
+
+            &:hover {
+                cursor: pointer;
+
+                & span {
+                    color: var(--tp-common-black);
+                }
+            }
+        }
+    }
+
+    &-remeber {
+        & input {
+            display: none;
+
+            &:checked {
+                &~label {
+                    &::after {
+                        background-color: var(--tp-theme-primary);
+                        border-color: var(--tp-theme-primary);
+                    }
+
+                    &::before {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        & label {
+            font-size: 15px;
+            color: #55585B;
+            position: relative;
+            padding-left: 26px;
+            z-index: 1;
+            width: 158.985px;
+            height: 12.442px;
+            flex-shrink: 0;
+            color: var(--dark-theme-dark-card-3, #423C69);
+            font-family: Inter;
+            font-size: 12.442px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            &::after {
+                position: absolute;
+                content: '';
+                top: 4px;
+                left: 0;
+                width: 18px;
+                height: 18px;
+                line-height: 16px;
+                text-align: center;
+                border: 1px solid #C3C7C9;
+                z-index: -1;
+                @include tp-transition(all, .2s);
+            }
+
+            &::before {
+                position: absolute;
+                content: url('../../../img/product/icons/check.svg');
+                top: 4px;
+                left: 0;
+                width: 18px;
+                height: 18px;
+                line-height: 16px;
+                text-align: center;
+                visibility: hidden;
+                opacity: 0;
+                color: var(--tp-common-white);
+                @include tp-transition(all, .2s);
+            }
+
+            & a {
+                &:hover {
+                    color: var(--tp-theme-primary);
+                }
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    &-forgot {
+        & a {
+            position: relative;
+            bottom: 30px;
+            // display: inline-block;
+            width: 159.676px;
+            height: 24.442000000000007px;
+            text-align: right;
+            // position: relative;
+            left: 45px;
+            font-weight: 400;
+            font-size: 15px;
+            color: var(--tp-theme-primary);
+            // position: relative;
+            // display: inline-block;
+            // width: 159.676px;
+            // height: 12.442px;
+            flex-shrink: 0;
+            font-family: Inter;
+            font-size: 12.442px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: auto;
+                right: 0;
+                bottom: 4px;
+                width: 0%;
+                height: 1px;
+                background-color: var(--tp-theme-primary);
+                @extend %tp-transition;
+            }
+
+            // &:hover {
+            //     &::after {
+            //         left: 0;
+            //         right: auto;
+            //         width: 100%;
+            //     }
+            // }
+        }
+    }
+
+    &-btn {
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--tp-common-white);
+        background-color: var(--tp-common-black);
+        padding: 14px 30px;
+        text-align: center;
+        display: inline-block;
+
+        &:hover {
+            background-color: var(--tp-theme-primary);
+            color: var(--tp-common-white);
+        }
+    }
+
+    &-shape {
+
+        &-1,
+        &-2,
+        &-3,
+        &-4 {
+            position: absolute;
+            z-index: -1;
+        }
+
+        &-1 {
+            top: 7%;
+            left: 18%;
+
+            @media #{$xl} {
+                left: 8%;
+            }
+
+            @media #{$lg} {
+                left: 4%;
+            }
+        }
+
+        &-2 {
+            bottom: 38%;
+            left: 26%;
+
+            @media #{$xl} {
+                left: 15%;
+            }
+
+            @media #{$lg} {
+                left: 8%;
+            }
+        }
+
+        &-3 {
+            top: 7%;
+            right: 22%;
+
+            @media #{$xl} {
+                right: 15%;
+            }
+
+            @media #{$lg} {
+                right: 10%;
+            }
+        }
+
+        &-4 {
+            bottom: 27%;
+            right: 20%;
+
+            @media #{$xxl, $x3l} {
+                right: 10%;
+            }
+
+            @media #{$xl} {
+                right: 3%;
+            }
+
+            @media #{$lg} {
+                right: -6%;
+            }
+        }
+
+     
+    }
+}

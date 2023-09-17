@@ -1,0 +1,342 @@
+.logincontainer {
+    width: 465.203px;
+    height: 604.035px;
+    flex-shrink: 0;
+    /* fill: var(--red-light-gradient, linear-gradient(167deg, #FCFCFC 1.99%, #FCFBFB 4.17%, #FFEAEA 100%));
+    stroke-width: 0.346px;
+    stroke: var(--blue-50, rgba(77, 175, 230, 0.50));
+    filter: drop-shadow(0px 13.824740409851074px 34.56185531616211px rgba(0, 0, 0, 0.10)); */
+/* 
+    fill: var(--red-light-gradient, linear-gradient(167deg, #FCFCFC 1.99%, #FCFBFB 4.17%, #FFEAEA 100%));
+stroke-width: 0.346px;
+stroke: var(--blue-50, rgba(77, 175, 230, 0.50));
+filter: drop-shadow(0px 13.824740409851074px 34.56185531616211px rgba(0, 0, 0, 0.10)); */
+
+fill: var(--red-light-gradient, linear-gradient(167deg, #FCFCFC 1.99%, #FCFBFB 4.17%, #FFEAEA 100%));
+stroke-width: 0.346px;
+stroke: var(--blue-50, rgba(77, 175, 230, 0.50));
+filter: drop-shadow(0px 13.824740409851074px 34.56185531616211px rgba(0, 0, 0, 0.10));
+}
+
+/* .login_container{
+    background-image: url('../../../public/assets/ad/Login_bg.svg');
+    height: 150vh;
+} */
+
+.button>button {
+    width: 369.622px;
+    height: 53.835px;
+    flex-shrink: 0;
+    border-radius: 6.221px;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    position: relative;
+    top: -25px;
+    left: -15px;
+}
+
+.googlebutton>button {
+    width: 368.375px;
+    height: 55.75px;
+    transform: rotate(0.023deg);
+    flex-shrink: 0;
+    border-radius: 5.442px;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+
+    /* background: #FFF; */
+    position: relative;
+    top: -25px;
+    left: -15px;
+}
+
+.googlebutton>img{
+    width: 54.866px;
+height: 54.866px;
+transform: rotate(0.023deg);
+flex-shrink: 0;
+/* background-color: green; */
+/* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+
+}
+
+.login {
+    width: 77.009px;
+    height: 18.55px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 13.829px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    left: 150px;
+}
+
+.google_text{
+    color: #000;
+font-family: Open Sans;
+font-size: 9.545px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.191px;
+}
+.at {
+    width: 18.49px;
+    height: 27.806px;
+    flex-shrink: 0;
+    font-family: Open Sans;
+    font-size: 20.737px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -36px;
+    left: 320px;
+}
+
+.checkbox>input[type="checkbox"] {
+
+    border-radius: 4px;
+    width: 16.674px;
+    height: 15.979px;
+    flex-shrink: 0;
+    border: 1px solid rgb(9, 200, 248);
+    margin-right: 10px;
+}
+
+.accounttext>p {
+    width: 232.947px;
+    height: 12.442px;
+    flex-shrink: 0;
+    color: var(--theme-color-gray-3, #979797);
+    font-family: Inter;
+    font-size: 12.442px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    top: -40px;
+}
+
+.spantext {
+    color: var(--green-new, #0ac078);
+
+    font-family: Inter;
+    font-size: 12.442px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.email {
+    width: 89.133px;
+    height: 12.438px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 12.677px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -3px;
+    left: 27px;
+
+}
+
+.email1 {
+    width: 89.133px;
+    height: 12.438px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 12.677px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -42px;
+    left: 26px;
+
+}
+
+.emailplaceholder>input {
+
+    position: relative;
+    width: 39.5vh;
+    border-radius: 8.295px;
+    border: 0.691px solid var(--blue-50, rgba(77, 175, 230, 0.50));
+    background: var(--theme-color-white, #FCFCFC);
+    box-shadow: 0px 13.824740409851074px 34.56185531616211px 0px rgba(25, 121, 128, 0.10);
+    top: 8px;
+    background: transparent;
+    left: -93px;
+
+}
+
+.emailplaceholder1>input {
+    margin-top: -px;
+    position: relative;
+    width: 39.5vh;
+    border-radius: 8.295px;
+    border: 0.691px solid var(--blue-50, rgba(77, 175, 230, 0.50));
+    background: var(--theme-color-white, #FCFCFC);
+    box-shadow: 0px 13.824740409851074px 34.56185531616211px 0px rgba(25, 121, 128, 0.10);
+    left: -90px;
+    background: transparent;
+    top: -33px;
+}
+
+.emailplaceholder>input::placeholder {
+    position: relative;
+    top: 6px;
+
+
+}
+
+.emailplaceholder1>input::placeholder {
+    position: relative;
+    top: 5px;
+
+
+}
+
+.checkbox>label {
+
+    width: 158.985px;
+    height: 12.442px;
+    flex-shrink: 0;
+    color: var(--dark-theme-dark-card-3, #423C69);
+    font-family: Inter;
+    font-size: 12.442px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+    top: -54px;
+}
+
+.icon {
+    /* top: -33px; */
+    position: relative;
+    /* left: 35px; */
+    bottom: 43px;
+    left: 330px;
+
+
+}
+
+.gmailicon{
+    position: relative;
+    left: 330px;
+    bottom: 43px;
+}
+
+.icon>Image {
+    width: 20px;
+    height: 17px;
+}
+
+.checktext {
+    position: relative;
+    top: 7px;
+}
+
+/* Text/Text Regular 2 */
+/* font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: relative;
+top: -30px;
+} */
+.check{
+    position: relative;
+    top: -24px;
+}
+
+.keeptext {
+    padding-Bottom: 5px;
+    position: relative;
+    top: -28px;
+    left: 2px;
+}
+
+.google {
+    width: 38vh;
+    position: relative;
+    top: -35px;
+    border-radius: 5.442px;
+    background: #FFF;
+    /* left: -10px; */
+
+}
+
+.error {
+    position: relative;
+    top: -31px;
+
+}
+
+.emailplaceholder1 {
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -30px;
+}
+
+.login {
+    width: 77.009px;
+    height: 18.55px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 13.829px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    top: 12px;
+    left: 150px;
+}
+
+
+.button>button {
+    width: 369.622px;
+    height: 53.835px;
+    flex-shrink: 0;
+    border-radius: 6.221px;
+    background: var(--theme-color-blue-gradient, linear-gradient(180deg, #2F4C8F 0%, #2581BF 100%));
+    position: relative;
+    top: -25px;
+    left: -15px;
+}

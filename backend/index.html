@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Upload</title>
+  </head>
+  <body>
+    <h1>Image Upload</h1>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <button onclick="uploadImage()">Upload</button>
+
+    <script>
+      function uploadImage() {
+        const fileInput = document.getElementById('imageUpload');
+        const file = fileInput.files[0];
+        const formData = new FormData();
+        formData.append('image', file);
+
+        fetch('http://localhost:7000/api/upload', {
+          method: 'POST',
+          body: formData,
+        })
+          .then(response => response.json())
+          .then(data => {
+            console.log('Image uploaded:', data.imageUrl);
+          })
+          .catch(error => {
+            console.error('Error uploading image:', error);
+          });
+      }
+    </script>
+  </body>
+</html>

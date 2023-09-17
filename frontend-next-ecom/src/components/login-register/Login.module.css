@@ -1,0 +1,36 @@
+.heading>h3{
+    width: 337.324px;
+height: 31.106px;
+flex-shrink: 0;
+color: var(--dark-blue, #094C89);
+font-family: Inter;
+font-size: 24.885px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+left: -3px;
+ 
+
+}
+.background{
+   background-image: url('../../../public/assets/ad/Login_bg.svg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+
+   
+}
+.mainlogin{
+    display: flex;
+    justify-content: center;
+    column-gap: 115px;
+    top: 70px;
+    position: relative;
+}
+
+.container{
+    position: relative;
+    left: -100px;
+    top: 50px;
+}

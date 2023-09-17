@@ -1,0 +1,21 @@
+/* .tp_category_menu_container {
+  position: relative;
+}
+
+.tp_category_menu_content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  padding: 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tp_category_menu_container:hover .tp_category_menu_content {
+  display: block;
+  height: 50vh;
+  width: 100%;
+} */

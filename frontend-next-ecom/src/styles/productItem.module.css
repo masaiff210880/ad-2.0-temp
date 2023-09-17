@@ -1,0 +1,37 @@
+/* .AddCompBtn{
+    background-color: rgb(251, 168, 7);
+}
+.AddCart{
+    background-color: rgb(251, 168, 7);
+    
+} */
+
+
+  /* Target the link inside .shopHomeCss and set the text color to black */
+  .shopHomeCss a {
+    color: #36383b
+  }
+  .mainTitle{
+    color:#36383b;
+  }
+  .subTitle{
+    color:#36383b;
+  }
+  .pfText {
+    
+    color: #36383b; /* Set the text color to black */
+  }
+  
+  .statusFilterText{
+    color: #36383b; /* Set the text color to black */
+  }
+  .textCardStyle{
+    background-color: #0792DA;
+    border-radius: 5px;
+    width: 30px;
+    padding-left: 4px;
+    padding-right: 9px;
+  }
+  .productNameStyle{
+    color: #36383b;
+  }

@@ -1,0 +1,181 @@
+/* .commonIconStyle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: #2f4c8f;
+  border: 1px solid #00cefb;
+  border-radius: 5px;
+  background: var(--dark-theme-white, #fff);
+  padding: 2px 7px;
+  box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 21px;
+}
+
+.commonIconStyle:hover {
+  background: var(
+    --theme-color-blue-gradient,
+    linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+  );
+  color: white;
+} */
+
+.commonIconStyle {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  color: #2f4c8f;
+  border: 1px solid #00cefb;
+  border-radius: 5px;
+  background: var(--dark-theme-white, #fff);
+  padding: 2px 7px;
+  box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px
+    rgba(0, 0, 0, 0.25);
+  font-size: 21px;
+}
+
+.commonIconStyle:hover {
+  background: var(
+    --theme-color-blue-gradient,
+    linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+  );
+  color: white;
+}
+.subPurchaseRepts {
+  width: 193px;
+  height: 37px;
+  flex-shrink: 0;
+  margin-left: 11.2px;
+  border-radius: 3px;
+  background-color: #e7f7f5;
+  font-family: Inter;
+  font-size: 16.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #2581bf;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+
+.purchaseResptsPara {
+  color: #212529;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 28px;
+  padding-top: 23px;
+}
+.sPRfirstDiv {
+  width: 100%;
+  height: 139px;
+  flex-shrink: 0;
+  margin-left: 28px;
+  background: var(--White-Shadow_, #fff);
+
+  /* Shadow */
+  box-shadow: 0px 3.5396px 8.84901px 0px rgba(0, 0, 0, 0.25);
+}
+.sRPSubFirtDiv {
+  width: 100%;
+  height: 42px;
+  flex-shrink: 0;
+  background: var(--dark-theme-light-purple, rgba(77, 175, 230, 0.2));
+  color: var(--dark-theme-text-blue, #119ad5);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 12px;
+}
+.sRPSubFirtDiv > span {
+  font-size: 16.5px;
+  padding-top: 12px;
+}
+.sRPSubFirtDiv > i {
+  padding-left: 10px;
+  padding-top: 8px;
+  font-size: 29px;
+  background: var(
+    --dark-theme-theme-color-blue-gradient,
+    linear-gradient(180deg, #2f4c8f 0%, #2581bf 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sPRSubSecDiv {
+  margin-top: 33px;
+  margin-left: 28px;
+  color: var(--Gray-Blue, #888998);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sPRBoxSecDiv {
+  width: 268px;
+  height: 45px;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 11px;
+  color: var(--Gray-Blue, #888998);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  justify-content: space-around;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid rgba(136, 137, 152, 0.5);
+  background: var(--White-Shadow_, #fff);
+  margin-left: 28px;
+  /* Blue Shadow */
+  box-shadow: 0px 0.70792px 1.7698px 0px rgba(0, 129, 249, 0.15);
+}
+.tableHeading {
+  background: var(--purple-10, rgba(77, 175, 230, 0.1));
+  color: #0a3e89;
+  padding-bottom: 15px;
+}
+.pieceCountDiv {
+  width: 102.601px;
+  padding: 2.832px 86.601px 2.811px 8px;
+  align-items: center;
+  border-radius: 3.538px;
+  border: 0.354px solid rgba(77, 175, 230, 0.5);
+  background: #fff;
+  box-shadow: 0px 2.83036px 12.73663px 0px rgba(0, 129, 249, 0.15);
+}
+.pCostDiv {
+  width: 20%;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.pieceL2CountDiv {
+  width: 170px;
+  
+  padding: 2.832px 86.601px 2.811px 8px;
+  align-items: center;
+  border-radius: 3.538px;
+  border: 0.354px solid rgba(77, 175, 230, 0.5);
+  background: #fff;
+  box-shadow: 0px 2.83036px 12.73663px 0px rgba(0, 129, 249, 0.15);
+}
+.tableBodyHover :hover{
+  background-color: #D8FDFF;
+}
+

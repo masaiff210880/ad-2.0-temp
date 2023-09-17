@@ -1,0 +1,114 @@
+
+
+.row1{
+    font-family: Poppins;
+font-size: 20.905px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border-radius: 2.834px;
+background: var(--purple-10, rgba(77, 175, 230, 0.10))!important;
+
+/* background-clip: text; */
+/* -webkit-background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
+/* color:  var(--dark-theme-blue-gradient, linear-gradient(180deg, #0A3E89 0%, #1D73AC 100%)); */
+color: #0A3E89   ;
+}
+.head{
+    border-radius: 2.834px;
+background: var(--purple-10, rgba(77, 175, 230, 0.10));
+border:1px solid black;
+}
+.table{
+    width: 1550px;
+height: 920px;
+flex-shrink: 0;
+background: var(--dark-theme-white, #FFF);
+border: 1px solid #E9EBEC;;
+
+/* Shadow */
+/* box-shadow: 0px 3.5396039485931396px 8.84900951385498px 0px rgba(0, 0, 0, 0.25); */
+}
+.ordertext{
+    color: var(--dark-theme-text-blue, #119AD5)!important;
+font-family: Poppins;
+font-size: 20.905px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.customer{
+    color: #212529;
+font-family: Poppins;
+font-size: 20.905px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.orderdate{
+    color: #212529;
+font-family: Poppins;
+font-size: 20.905px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.orderdate>span{
+    color: #9599AD;
+font-family: Poppins;
+font-size: 18.3px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.buttons{
+    display: flex;
+    left: 1274px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    column-gap:10px;
+
+    
+}
+.button1{
+    width: 96px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--dark-theme-theme-color-red, #FC0011)!important;
+color: #FFF!important;;
+font-family: Poppins!important;;
+font-size: 13px!important;;
+font-style: normal;
+font-weight: 400!important;;
+line-height: normal;
+border: none;
+}
+.button2{
+    width: 96px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #0AB39C!important;
+color: #FFF!important;
+font-family: Poppins!important;;
+font-size: 13px!important;;
+font-style: normal!important;;
+font-weight: 400!important;;
+line-height: normal!important;
+border: none;
+
+}
+.checkbox{
+    width: 24.222px;
+height: 23.213px;
+position: relative;
+left: 40px;
+/* flex-shrink: 0;
+border-radius: 4.99px; */
+/* border: 0.998px solid var(--sky-blue, #5CCFFE);
+background: var(--theme-color-white, #FCFCFC); */
+}
+

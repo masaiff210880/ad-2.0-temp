@@ -1,0 +1,15 @@
+/* .starImg{
+    width: 30vh;
+    height: 20vh;
+} */
+.styleStarContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 17vh;
+    gap: 5px;
+    margin-top: -67px;
+    margin-bottom: 30px;
+   
+  
+  
+}

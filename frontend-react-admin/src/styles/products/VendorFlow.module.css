@@ -1,0 +1,54 @@
+.editbtn {
+    background: var(--dark-theme-dark-blue, #094C89);
+    border: none;
+  }
+  .table{
+    border: none;
+    margin: auto;
+  }
+  .text{
+    display: flex;
+    position: relative;
+    left: 11px;
+  }
+  .profilebg {
+    background: linear-gradient(9deg, #002F5A 0%, #085696 32.54%, #019EF7 100%);
+    width: 1672px;
+height: 319px;
+flex-shrink: 0;
+  }
+  /* @media (max-width: 768px) {
+    .textbg {
+      Adjust the background color or other styles for small screens
+      background: #019EF7;
+    }
+  } */
+  .textbg{
+    background: #019EF7;
+    width: 7vw;
+    border-radius: 5px;
+    width: 100%;
+    background-size:cover ;
+  }
+  .bgcontainer{
+    background: linear-gradient(311deg, #D4F7FF 0%, #FFF 100%);
+  }
+  .italictext{
+    color: #9599AD;
+font-family: Poppins;
+font-size: 13px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+  }
+  .vendorFlowCard{
+    background: linear-gradient(294deg, #D4F7FF -0.51%, #FFF 123.26%);
+  }
+  /* .card{
+    width: 387px;
+height: 319px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 2px 0px rgba(56, 65, 74, 0.15);
+  } */
